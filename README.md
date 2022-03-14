@@ -24,7 +24,21 @@ Dataset collected of tweets belonging to a wide range of country level Arabic di
 - Modeling
     - In ML : (Linear SVC & Multinomial naive bayes) models trained using CountVectorizer features and transform using TfidfTransformer.
     - In DL :  Using LSTM as it deal very well with Text data which have long sequences. It tooks hours just to finish one epoch.
-    
+    - Result 
+            -------------------------------------------
+           |     Model                      |  Accuracy|
+           |-------------------------------------------|
+           | LinearSVC     (dialect)        |    0.513 |
+           |-------------------------------------------|
+           | MultinomialNB (dialect)        |    0.365 |
+           |-------------------------------------------|
+           | LinearSVC (region_dialect)     |    0.788 |
+           |-------------------------------------------|
+           | MultinomialNB (region_dialect) |    0.701 |
+           |-------------------------------------------|
+           |LSTM                            |    0.505 |
+            ------------------------------------------- 
+
 - Deployment
     - Deploying the LinearSVC model using Flask as a back end and HTML as front end.
 
