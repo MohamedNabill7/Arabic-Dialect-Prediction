@@ -28,6 +28,16 @@ Dataset collected of tweets belonging to a wide range of country level Arabic di
 - Deployment
     - Deploying the LinearSVC model using Flask as a back end and HTML as front end.
 
+## How to Run
+
+    - Clone this repo to your local machine.
+
+    - Due to github maximum file size i couldn't upload model to the repo but you can download from <a href=''> Here </a>.
+
+    - Run the following command "pip install requirements.txt".
+
+    - Run the following command "python predictor_app.py".
+
 ## Technologies and Tools Used
 
 - Python 3.7
