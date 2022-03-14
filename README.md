@@ -36,8 +36,11 @@ Dataset collected of tweets belonging to a wide range of country level Arabic di
     
     
 ## Result 
+
+ The macro-averaged F1 score (or macro F1 score) is computed by taking the arithmetic mean (aka unweighted mean) of all the per-class F1 scores. This method treats all classes equally regardless of their support values. working with an imbalanced dataset where all classes are equally important, using the macro average would be a good choice as it treats all classes equally. 
+ 
             ------------------------------------------------------------
-           |     Model                      |   5-fold cv   |  Accuracy |
+           |     Model                      |   5-fold cv   |  F1 Score |
            |------------------------------------------------|-----------|
            | LinearSVC     (dialect)        |    with       |    0.513  |
            |------------------------------------------------|-----------|
