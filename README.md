@@ -32,7 +32,7 @@ Dataset collected of tweets belonging to a wide range of country level Arabic di
 
     - Clone this repo to your local machine.
 
-    - Due to github maximum file size i couldn't upload model to the repo but you can download from <a href='https://drive.google.com/file/d/1rCj2Z2IDwWKHhmWwkCCfAFR8ZF-HtieD/view?usp=sharing'> Here </a>.
+    - Due to github maximum file size i couldn't upload model to the repo but you can download from <a href="https://drive.google.com/file/d/1rCj2Z2IDwWKHhmWwkCCfAFR8ZF-HtieD/view?usp=sharing"> Here </a>.
 
     - Run the following command "pip install requirements.txt".
 
