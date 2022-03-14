@@ -24,7 +24,12 @@ Dataset collected of tweets belonging to a wide range of country level Arabic di
 - Modeling
     - In ML : (Linear SVC & Multinomial naive bayes) models trained using CountVectorizer features and transform using TfidfTransformer.
     - In DL :  Using LSTM as it deal very well with Text data which have long sequences. It tooks hours just to finish one epoch.
-    - Result 
+
+- Deployment
+    - Deploying the LinearSVC model using Flask as a back end and HTML as front end.
+    
+    
+## Result 
             -------------------------------------------
            |     Model                      |  Accuracy|
            |-------------------------------------------|
@@ -38,10 +43,8 @@ Dataset collected of tweets belonging to a wide range of country level Arabic di
            |-------------------------------------------|
            |LSTM                            |    0.505 |
             ------------------------------------------- 
-
-- Deployment
-    - Deploying the LinearSVC model using Flask as a back end and HTML as front end.
-
+            
+            
 ## How to Run
     
     - Clone this repo to your local machine.
