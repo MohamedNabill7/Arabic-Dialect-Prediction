@@ -82,5 +82,4 @@ Download Model from <a href="https://drive.google.com/file/d/1rCj2Z2IDwWKHhmWwkC
   
   ## Next Steps
 
-- Experiment with Vector Embedding in Arabic.
-- Model using AraBert and AraElectra
+- Finetuning of Arabert
