@@ -66,6 +66,7 @@ Dataset collected of tweets belonging to a wide range of country level Arabic di
     - Run the following command "pip install requirements.txt".
     - Run the following command "python predictor_app.py".
 Download Model from <a href="https://drive.google.com/file/d/1rCj2Z2IDwWKHhmWwkCCfAFR8ZF-HtieD/view?usp=sharing"> Here </a>
+
 ## Tools Used
 
 - Python 3.7 
@@ -75,7 +76,6 @@ Download Model from <a href="https://drive.google.com/file/d/1rCj2Z2IDwWKHhmWwkC
 ## Conclusions
 
  - Our model suffered from class imbalance. Dialectical classification needs more data to work better.
- - Oversampling does not solve class imbalance in this case.
   
   ## Next Steps
 
