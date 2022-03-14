@@ -2,6 +2,12 @@
 Many countries speak Arabic. 
 However, each country has its own dialect, the aim of this repo is to build a model that predicts the dialect given the text.
 
+## App
+
+![sc](https://user-images.githubusercontent.com/67477345/158219878-585f1e91-9842-4701-ad5e-4a8da48857b3.png)
+
+
+
 ## Introduction
 
 The process of computationally identifying the language of a given text is considered the cornerstone of many important NLP applications such as machine translation, social media analysis, etc. 
