@@ -42,13 +42,13 @@ Dataset collected of tweets belonging to a wide range of country level Arabic di
             ------------------------------------------------------------
            |     Model                      |   5-fold cv   |  F1 Score |
            |------------------------------------------------|-----------|
-           | LinearSVC     (dialect)        |    with       |    0.513  |
+           | LinearSVC     (dialect)        |    with       |    0.883  |
            |------------------------------------------------|-----------|
-           | MultinomialNB (dialect)        |    with       |    0.365  |
+           | MultinomialNB (dialect)        |    with       |    0.765  |
            |------------------------------------------------|-----------|
-           | LinearSVC     (dialect)        |    without    |    0.541  |
+           | LinearSVC     (dialect)        |    without    |    0.841  |
            |------------------------------------------------|-----------|          
-           | MultinomialNB (dialect)        |    without    |    0.364  |
+           | MultinomialNB (dialect)        |    without    |    0.704  |
            |------------------------------------------------|-----------|    
            | LinearSVC (region_dialect)     |    with       |    0.788  |
            |------------------------------------------------|-----------|    
@@ -56,9 +56,9 @@ Dataset collected of tweets belonging to a wide range of country level Arabic di
            |------------------------------------------------|-----------|
            | LinearSVC (region_dialect)     |    without    |    0.802  |
            |------------------------------------------------|-----------|    
-           | MultinomialNB (region_dialect) |    without    |    0.665  |
+           | MultinomialNB (region_dialect) |    without    |    0.685  |
            |------------------------------------------------|-----------|    
-           | LSTM                           |    ------     |    0.505  |
+           | LSTM                           |    ------     |    0.875  |
             ------------------------------------------------------------ 
             
             
